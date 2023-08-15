@@ -33,7 +33,7 @@
     
      <div class="row">
          <!-- nilai tds -->
-      <div class="col"><div class="card">
+      <div class="col mb-3"><div class="card">
   <div class="card-body">
     <h5 class="card-title" style="font-size: 90px"> <span id="cektds"> 0 </span> </h5>
     <br>
@@ -48,7 +48,7 @@
     <!--  tds akhir -->
 
           <!-- nilai ph -->
-      <div class="col">
+      <div class="col mb-3">
       <div class="card" >
   <div class="card-body">
     <h5 class="card-title" style="font-size: 90px"><span id="cekph">0</span></h5>
@@ -62,7 +62,7 @@
       </div>
     <!--  ph akhir -->
     <!-- nilai flow -->
-      <div class="col">
+      <div class="col mb-3">
       <div class="card" >
   <div class="card-body">
     <h5 class="card-title" style="font-size: 90px"><span id="cekaliran">0</span></h5>
@@ -76,7 +76,7 @@
       </div>
     <!--  flow akhir -->
     <!-- nilai suhu -->
-      <div class="col">
+      <div class="col mb-3">
       <div class="card">
   <div class="card-body">
     <h5 class="card-title" style="font-size: 90px"><span id="ceksuhu">0</span></h5>
