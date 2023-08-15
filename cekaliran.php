@@ -15,4 +15,5 @@
 	// cetak nilai
 	echo $aliran ;
 
+
  ?>
