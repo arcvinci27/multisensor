@@ -28,7 +28,7 @@
   <body background="https://events.rumah123.com/news-content/img/2020/04/08093119/8161.jpg">
   
         <div class="container" style="text-align: center; margin-top: 150px">
-      <h2>Monitoring</h2>
+      <h2>Monitoring IoT Hidroponik</h2>
 
     
      <div style="display: flex;">
