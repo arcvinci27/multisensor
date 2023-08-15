@@ -31,9 +31,9 @@
       <h2>Monitoring IoT Hidroponik</h2>
 
     
-     <div style="display: flex;">
+     <div class="row">
          <!-- nilai tds -->
-      <div class="card" style="width: 18rem;">
+      <div class="col"><div class="card">
   <div class="card-body">
     <h5 class="card-title" style="font-size: 90px"> <span id="cektds"> 0 </span> </h5>
     <br>
@@ -43,11 +43,13 @@
     
   </div>
 </div>
+    </div>
     
     <!--  tds akhir -->
 
           <!-- nilai ph -->
-      <div class="card" style="width: 18rem;">
+      <div class="col">
+      <div class="card" >
   <div class="card-body">
     <h5 class="card-title" style="font-size: 90px"><span id="cekph">0</span></h5>
     <br>
@@ -57,10 +59,11 @@
     
   </div>
 </div>
-
+      </div>
     <!--  ph akhir -->
     <!-- nilai flow -->
-      <div class="card" style="width: 18rem;">
+      <div class="col">
+      <div class="card" >
   <div class="card-body">
     <h5 class="card-title" style="font-size: 90px"><span id="cekaliran">0</span></h5>
     <br>
@@ -70,10 +73,11 @@
     
   </div>
 </div>
-
+      </div>
     <!--  flow akhir -->
     <!-- nilai suhu -->
-      <div class="card" style="width: 18rem;">
+      <div class="col">
+      <div class="card">
   <div class="card-body">
     <h5 class="card-title" style="font-size: 90px"><span id="ceksuhu">0</span></h5>
     <br>
@@ -83,6 +87,7 @@
     
   </div>
 </div>
+      </div>
  <!--  suhu akhir -->
 
   </div>
