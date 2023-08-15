@@ -14,7 +14,6 @@
 
 	// cetak nilai
 	echo $aliran ;
-	
 
 
  ?>
