@@ -1,6 +1,6 @@
 <?php 
 	//koneksi untuk db
-	$konek = mysqli_connect("localhost", "root", "", "dbhidroponik"); 
+	$konek = mysqli_connect("localhost", "flyupid_hydroponic", "hydPNC120823_", "flyupid_hydroponic");  
 
 	//baca data dari esp
 	$tds = $_GET['tds'];
