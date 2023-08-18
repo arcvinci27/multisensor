@@ -14,7 +14,7 @@
 	mysqli_query($konek, "ALTER TABLE tbhidroponik AUTO_INCREMENT=1");
 
 	//simpan data ke tbhidroponik
-	$simpan = mysqli_query($konek, "insert into tbhidroponik(tds, ph, aliran)values('$tds', '$ph', '$aliran')");
+	$simpan = mysqli_query($konek, "update tbhidroponik set tds=$tds, ph=$ph, aliran=$ph where id=1");
 
 	//uji var simpan untuk beri respon
 	if($simpan)
