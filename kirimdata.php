@@ -1,14 +1,13 @@
 <?php 
 	//koneksi untuk db
-	$konek = mysqli_connect("localhost", "flyupid_hydroponic_2", "hydPNC120823_", "flyupid_hydroponic_2");  
-
+    include "koneksi.php";
 
 	//baca data dari esp
 	$tds = $_GET['tds'];
 	$ph = $_GET['ph'];
 	$aliran = $_GET['aliran'];
 
-	//simpa ke tb hidroponik
+	//simpan ke tb hidroponik
 
 	//auto increment = 1
 	mysqli_query($konek, "ALTER TABLE tbhidroponik AUTO_INCREMENT=1");
